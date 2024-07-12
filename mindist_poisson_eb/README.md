@@ -26,7 +26,7 @@ and saves the plots in the folder "numerical_results"
 
 * main_poisson_eb.py: This code computes NPMLE, Chi squared, and Squared Hellinger based EB estimator function, given training dataset
   
-* main_poisson_worst_prior.py: This is used to estimate the worst case prior that maximizes the posterior variance
+* main_poisson_worst_prior.py: This is used to estimate the worst-case prior that maximizes the posterior variance
 
 
 ## Cite
