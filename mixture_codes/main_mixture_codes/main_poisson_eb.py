@@ -1,5 +1,5 @@
 
-##### This code computes NPMLE based EB estimating functions, given the training datasets ######
+##### This code computes NPMLE, Chi squared, and Squared Hellinger based EB estimator function, given the training datasets ######
 
 import numpy as np;
 from main_poisson_mindist import *;

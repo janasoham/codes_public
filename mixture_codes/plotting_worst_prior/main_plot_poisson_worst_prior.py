@@ -1,5 +1,5 @@
-#### This code plots the hockey-data goals from the year 2018 and
-#### their corresponding minimum-distance based EB predictions for the year 2019 ####
+#### This code plots the worst prior supported on [0,theta_max]
+# that maximizes the posterior variance
 
 
 import sys

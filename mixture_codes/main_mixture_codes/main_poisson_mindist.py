@@ -5,8 +5,10 @@ from functions_sqH import *;
 from roots_and_preds import *;
 
 
-# Given a training sample, the following function generates
-# minimum nonparametric Chi square estimate of G (support and probability) based on the Poisson mixture model
+# Given a training sample, the following function generates nonparamtric
+# estimate of the prior G (support and probability) for the Poisson mixture model
+# based on the methods npmle, minimum Chi sqaure distance, and
+# minimum squared Hellinger distance method
 
 
 def mindist_chisq(train_data):
