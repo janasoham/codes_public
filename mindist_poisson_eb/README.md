@@ -19,16 +19,18 @@ Implementation of the method proposed in the paper: "[Optimal empirical Bayes es
 
 * main_plot_poisson_worst_prior.py
 
-which plots (not compute) the worst case prior that maximizes the posterior variance over a given support
+which plots (not compute) the worst-case prior that maximizes the posterior variance over a given support
 and saves the plots in the folder "numerical_results"
 
 2) The "main_mixture_codes" folder includes the main files
 
 * main_poisson_mindist.py: This is used to estimate the prior distribution from training data
 
-* main_poisson_eb.py: This code computes NPMLE, Chi squared, and Squared Hellinger based EB estimator function, given training dataset
+* main_poisson_eb.py: This code computes NPMLE, Chi squared, and squared Hellinger based EB estimator function, given the training dataset
   
 * main_poisson_worst_prior.py: This is used to estimate the worst-case prior that maximizes the posterior variance
+
+3) The "example_gamma_prior.py" file shows how the code works. Here, we first generate samples from the Poisson mixture with a Gamma prior. We then compute the min-dist estimators based on NPMLE, Chi-squared, and squared Hellinger distance and then plot them against the data and the Bayes estimator, which we can directly compute in this simulated setup.
 
 
 ## Cite
