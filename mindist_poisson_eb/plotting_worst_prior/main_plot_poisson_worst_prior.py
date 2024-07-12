@@ -73,5 +73,6 @@ plt.xlabel('support')
 plt.ylabel('probs')
 plt.title('worst case distribution')
 
-plt.savefig("numerical_results/least_favorable_prior_ID_%g.png" % my_rand)
+file_path = "numerical_results/target_values_%g.png" % my_rand
+plt.savefig(filepath)
 
