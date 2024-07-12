@@ -3,6 +3,8 @@
 Implementation of the method proposed in the paper: "[Optimal empirical Bayes estimation for the Poisson model via minimum-distance methods](https://arxiv.org/abs/2209.01328)", Soham Jana, Yury Polyanskiy, and Yihong Wu, arXiv:2209.01328v2.
 
 ## Requirements
+
+* pathlib
 * numpy/scipy
 * sklearn
 * mathplotlib
