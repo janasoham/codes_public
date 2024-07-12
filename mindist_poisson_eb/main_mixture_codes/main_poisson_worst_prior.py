@@ -1,3 +1,5 @@
+
+from pathlib import Path
 import numpy as np;
 from functions_worst_prior import *;
 from roots_and_preds import *;
@@ -10,6 +12,14 @@ import matplotlib.pyplot as plt
 
 my_rand = np.random.rand(1)
 
+# Define the folder name
+folder_name = 'numerical_results'
+
+# Create a Path object for the folder
+folder_path = Path(folder_name)
+
+# Create the folder/directory if it doesn't exist
+folder_path.mkdir(parents=True, exist_ok=True)
 
 def worst_prior(Xs_max, grid):
 

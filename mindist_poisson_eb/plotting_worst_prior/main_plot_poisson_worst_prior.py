@@ -1,7 +1,7 @@
 #### This code plots the worst prior supported on [0,theta_max]
 # that maximizes the posterior variance
 
-
+from pathlib import Path
 import sys
 import numpy as np
 import warnings
@@ -27,11 +27,11 @@ print(my_rand)
 
 ######################### Grids ####################
 
-Xs_max = 30
+Xs_max = 80
 
 all_grid_sizes = [400]
 
-theta_max = 10
+theta_max = 50
 
 
 ################ Gradient descent ##################
@@ -73,6 +73,17 @@ plt.xlabel('support')
 plt.ylabel('probs')
 plt.title('worst case distribution')
 
-file_path = "numerical_results/target_values_%g.png" % my_rand
-plt.savefig(filepath)
+
+# Define the folder name
+folder_name = 'numerical_results'
+
+# Create a Path object for the folder
+folder_path = Path(folder_name)
+
+# Create the folder/directory if it doesn't exist
+folder_path.mkdir(parents=True, exist_ok=True)
+
+file_path = "numerical_results/least_favorable_prior_ID_%g.png" % my_rand
+
+# plt.savefig(file_path)
 
