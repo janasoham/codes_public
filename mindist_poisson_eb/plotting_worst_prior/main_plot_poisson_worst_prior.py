@@ -85,5 +85,5 @@ folder_path.mkdir(parents=True, exist_ok=True)
 
 file_path = "numerical_results/least_favorable_prior_ID_%g.png" % my_rand
 
-# plt.savefig(file_path)
+plt.savefig(file_path)
 
