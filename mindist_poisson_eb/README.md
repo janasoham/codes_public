@@ -12,6 +12,7 @@ Implementation of the method proposed in the paper: "[Optimal empirical Bayes es
 * pandas
 * scipy
 * random
+* sys
 
 
 ## Info
