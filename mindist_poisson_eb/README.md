@@ -31,7 +31,7 @@ and saves the plots in the folder "numerical_results"
   
 * main_poisson_worst_prior.py: This is used to estimate the worst-case prior that maximizes the posterior variance
 
-3) The "example_gamma_prior.py" file shows how the code works. Here, we first generate samples from the Poisson mixture with a Gamma prior. We then compute the min-dist estimators based on NPMLE, Chi-squared, and squared Hellinger distance and then plot them against the data and the Bayes estimator, which we can directly compute in this simulated setup.
+3) The "example_gamma_prior.py" file shows how the code works. Here, we first generate samples from the Poisson mixture with a Gamma prior. We then compute the min-dist empirical Bayes estimators based on NPMLE, Chi-squared, and squared Hellinger distance and then plot them against the data and the Bayes estimator, which we can directly compute in this simulated setup.
 
 
 ## Cite
