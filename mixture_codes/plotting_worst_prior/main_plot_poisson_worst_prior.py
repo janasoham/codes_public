@@ -28,7 +28,6 @@ print(my_rand)
 ######################### Grids ####################
 
 Xs_max = 30
-# all_grid_sizes = list(range(2, 10, 1))
 
 all_grid_sizes = [400]
 
