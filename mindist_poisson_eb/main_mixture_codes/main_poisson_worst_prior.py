@@ -1,4 +1,4 @@
-
+import random
 from pathlib import Path
 import numpy as np;
 from functions_worst_prior import *;
@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 # Computes the worst case prior with a given range of prior support and
 # Xs_max denotes truncation for poisson expectation, var, etc., approximations
 
+random.seed(42)
 
 my_rand = np.random.rand(1)
 
@@ -38,7 +39,7 @@ def worst_prior(Xs_max, grid):
     mu_next = mu_gradient_step_worst_prior(theta_supp, mu_curr, 1e-4, Xs_max)
     mu_next = mu_next/sum(mu_next)
 
-    tot_iter = 2000
+    tot_iter = 5000
 
     all_target_vals = []
 

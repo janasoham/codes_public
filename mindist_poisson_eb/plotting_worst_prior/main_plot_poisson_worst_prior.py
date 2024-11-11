@@ -21,6 +21,8 @@ from main_poisson_worst_prior import *;
 
 from roots_and_preds import *;
 
+random.seed(42)
+
 my_rand = random.random()
 
 print(my_rand)
@@ -29,7 +31,7 @@ print(my_rand)
 
 Xs_max = 80
 
-all_grid_sizes = [400]
+all_grid_sizes = [1000]
 
 theta_max = 50
 
